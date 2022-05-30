@@ -561,9 +561,12 @@
 
 .bg-theme .roadmap-step,
 .bg-theme-dark .roadmap-step {
-        background: #e3a105;
-    border-color: #e3a105;
-}
+        /* background: #e3a105;
+    border-color: #e3a105; */
+  
+        border-color: #e3a10582;
+    }
+
 
 .bg-theme .roadmap-step:before,
 .bg-theme-dark .roadmap-step:before {
@@ -734,7 +737,10 @@
 }
 
 .tc-light .roadmap-time {
-       color: rgb(0 0 0 / 80%);
+       /* color: rgb(0 0 0 / 80%); */
+       
+        color: rgb(227 161 6);
+    
 }
 
 .roadmap-time-s1 {
@@ -1618,7 +1624,7 @@
 	    margin-left: -15px;
 }
 #roadmap{
-    background-color: black;
+    background-color: #092d15;
 }
 p, ul li {
    
